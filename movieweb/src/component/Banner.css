@@ -1,0 +1,50 @@
+.banner-container {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: RGB(30 30 42);
+  }
+  
+  .banner-image {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .banner-image img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .banner-content {
+    width: 20%;
+    padding: 20px;
+  }
+  
+  .movie-name {
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .release-date {
+    font-size: 30px;
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .play-button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #f44336;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .play-button i {
+    margin-right: 10px;
+  }

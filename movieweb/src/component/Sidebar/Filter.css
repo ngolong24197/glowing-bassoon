@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }

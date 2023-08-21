@@ -1,0 +1,32 @@
+.vertical-buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .vertical-buttons li {
+    margin-bottom: 10px;
+  }
+  
+  .vertical-buttons li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .vertical-buttons li a:hover {
+    background-color: goldenrod;
+  }
+
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
